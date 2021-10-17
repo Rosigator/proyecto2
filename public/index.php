@@ -1,5 +1,7 @@
 <?php
 
+//Un simple comentario
+
 abstract class Uno
 {
 
@@ -40,3 +42,5 @@ class Dos extends Uno
 $dos = new Dos(2, 3, 4);
 
 $dos->mostrar_atr();
+
+$tres = 3;
