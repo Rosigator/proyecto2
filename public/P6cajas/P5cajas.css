@@ -110,28 +110,31 @@ body {
   padding: 1rem;
 }
 
-#logo * {
+#logo {
   color: #db905c;
+  font-size: 1.2rem;
 }
 
-#logospan {
-  font-weight: 300;
+#logo h1 span {
+  font-weight: 500;
 }
 
 #menu {
   background: #2647a0;
   border: 0px;
-  padding: 5px;
+  padding: 0.75rem 0px 0.75rem 0.05rem;
 }
 
 #menu li a {
   margin: 0.5rem;
   color: white;
+  font-size: 1.2rem;
 }
 
 #lateral {
   margin: 5px 0 5px 0;
   border: 0px;
+  font-size: 0.75rem;
 }
 
 #noticias,
@@ -140,17 +143,16 @@ body {
 }
 
 #lateral h3 {
-  font-size: 1rem;
   margin: 3px;
 }
 
 #lateral p {
-  font-size: 0.8rem;
   margin: 3px;
 }
 
 #noticias {
   border: 1px solid rgb(170, 170, 170);
+  background-color: rgb(243, 243, 243);
 }
 
 #noticias p * {
@@ -163,7 +165,6 @@ body {
 }
 
 #noticias ul li {
-  font-size: 0.8rem;
   margin: 3px;
 }
 
@@ -179,3 +180,52 @@ body {
 #publicidad p {
   color: dimgray;
 }
+
+#contenido{
+  border: none;
+}
+
+#contenido h2{
+
+  color: #cc6600;
+  font-size: 1.2rem;
+  padding: 0.7rem 0rem 0.5rem 0rem
+}
+
+#contenido #principal{
+  border: none;
+}
+
+#principal p{
+  
+  font-size: 0.88rem;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+#principal img{
+  
+  margin: 0.5rem;
+}
+
+#principal a{
+
+  color: #cc6600;
+}
+
+#secundario h2{
+
+  font-size: 0.75rem;
+}
+
+#pie{
+
+  margin-top: 1rem;
+  border: 1px solid rgb(170, 170, 170);
+  background:rgb(243, 243, 243);
+}
+
+#pie a{
+
+  font-size: 0.65rem;
+}
+
