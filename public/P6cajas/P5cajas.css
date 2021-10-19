@@ -1,0 +1,181 @@
+/* === IMPORTANTE ===================================================
+   No modificar estos estilos, ya que son imprescindibles para
+   que la página se vea correctamente.
+   ================================================================== */
+
+/*-- Bsico ----------------------------------------------------------*/
+ul,
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+p,
+form {
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+img {
+  border: none;
+}
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#cabecera,
+#menu,
+#lateral,
+#contenido,
+#contenido #principal,
+#contenido #secundario,
+#pie {
+  border: 2px solid #777;
+}
+
+#cabecera {
+  clear: both;
+}
+#menu {
+  clear: both;
+}
+#lateral {
+  float: left;
+  width: 20%;
+}
+#contenido {
+  float: right;
+  width: 78%;
+}
+#contenido #principal {
+  float: left;
+  width: 78%;
+}
+#contenido #secundario {
+  float: right;
+  width: 20%;
+}
+#pie {
+  clear: both;
+}
+
+/*-- Cabecera --------------------------------------------------------*/
+#cabecera #logo {
+  float: left;
+}
+#cabecera #buscador {
+  float: right;
+}
+
+/*-- Menu ------------------------------------------------------------*/
+#menu ul#menu_principal li {
+  display: inline;
+  float: left;
+}
+
+/*-- Seccin Principal -----------------------------------------------*/
+#contenido #principal .articulo img {
+  width: 100px;
+  float: left;
+}
+
+/*-- Pie de pgina ---------------------------------------------------*/
+#pie .enlaces {
+  float: left;
+}
+#pie .copyright {
+  float: right;
+}
+
+/* === IMPORTANTE ===================================================
+  A partir de aquí, se pueden añadir todos los estilos propios que 
+  sean necesarios.
+================================================================== */
+
+body {
+  font-family: sans-serif;
+}
+
+#cabecera {
+  border: 0px;
+  padding: 1rem;
+}
+
+#logo * {
+  color: #db905c;
+}
+
+#logospan {
+  font-weight: 300;
+}
+
+#menu {
+  background: #2647a0;
+  border: 0px;
+  padding: 5px;
+}
+
+#menu li a {
+  margin: 0.5rem;
+  color: white;
+}
+
+#lateral {
+  margin: 5px 0 5px 0;
+  border: 0px;
+}
+
+#noticias,
+#publicidad {
+  margin: 5px 0px 5px 0px;
+}
+
+#lateral h3 {
+  font-size: 1rem;
+  margin: 3px;
+}
+
+#lateral p {
+  font-size: 0.8rem;
+  margin: 3px;
+}
+
+#noticias {
+  border: 1px solid rgb(170, 170, 170);
+}
+
+#noticias p * {
+  display: block;
+  margin: 3px;
+}
+
+#noticias p span {
+  color: lightslategray;
+}
+
+#noticias ul li {
+  font-size: 0.8rem;
+  margin: 3px;
+}
+
+#publicidad {
+  background: #fff6cd;
+  border: 1px dashed #cc6600;
+}
+
+#publicidad a {
+  color: #cc6600;
+}
+
+#publicidad p {
+  color: dimgray;
+}
