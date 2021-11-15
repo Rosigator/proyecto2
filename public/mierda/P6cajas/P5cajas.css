@@ -142,12 +142,10 @@ body {
   margin: 5px 0px 5px 0px;
 }
 
-#lateral h3 {
-  margin: 3px;
-}
-
-#lateral p {
-  margin: 3px;
+#lateral h3,
+p,
+a {
+  margin: 3px 3px 8px 3px;
 }
 
 #noticias {
@@ -181,51 +179,73 @@ body {
   color: dimgray;
 }
 
-#contenido{
+#contenido {
   border: none;
 }
 
-#contenido h2{
-
+#contenido h2 {
   color: #cc6600;
   font-size: 1.2rem;
-  padding: 0.7rem 0rem 0.5rem 0rem
+  padding: 0.7rem 0rem 0.5rem 0rem;
 }
 
-#contenido #principal{
+#contenido #principal {
   border: none;
 }
 
-#principal p{
-  
+#principal p {
   font-size: 0.88rem;
   margin: 0.5rem 0 0.5rem 0;
 }
 
-#principal img{
-  
+#principal img {
   margin: 0.5rem;
 }
 
-#principal a{
-
+#principal a {
   color: #cc6600;
 }
 
-#secundario h2{
+#secundario {
+  border: 1px solid #db905c !important;
+  margin-top: 0.5rem;
+  padding: 0.3rem;
+}
 
+#secundario h2 {
   font-size: 0.75rem;
+  background: #db905c;
+  color: white;
+  margin: 0.2rem;
+  padding: 0.5rem 0 0.5rem 0.2rem;
 }
 
-#pie{
+#secundario p,
+a {
+  font-size: 0.88rem;
+}
 
+#pie {
   margin-top: 1rem;
-  border: 1px solid rgb(170, 170, 170);
-  background:rgb(243, 243, 243);
+  border-top: 1px solid rgb(170, 170, 170);
+  border-bottom: 1px solid rgb(170, 170, 170);
+  border-left: none;
+  border-right: none;
+  background: rgb(243, 243, 243);
 }
 
-#pie a{
-
-  font-size: 0.65rem;
+#pie a {
+  display: inline-block;
+  margin: 0.1rem 0 0.3rem 0;
+  font-size: 0.7rem;
 }
 
+.copyright {
+  margin-top: 0.2rem;
+  font-size: 0.7rem;
+  color: #777;
+}
+
+.enlaces {
+  font-size: 0.88rem;
+}
