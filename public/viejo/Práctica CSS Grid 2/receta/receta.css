@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+.titulo {
+  text-align: center;
+}
+.header {
+  padding-top: 3rem;
+}
+.navegacion {
+  background-color: black;
+  margin: 3rem 0;
+}
+
+.navegacion a {
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+.navegacion a:hover {
+  background-color: #c9c84a;
+  color: black;
+}
+img {
+  max-width: 100%;
+}
+.slider img {
+  width: 100%;
+}
+.entrada p {
+  text-align: justify;
+}
+
+.informacion {
+  background-color: #c9c84a;
+  color: white;
+  font-size: 1.4rem;
+}
+.informacion p {
+  margin: 0 0 0.5rem 0;
+  padding: 1rem;
+  text-align: center;
+}
+.imagen1,
+.imagen2 {
+  text-align: center;
+}
+blockquote {
+  font-size: 1.4rem;
+  text-align: center;
+  font-style: italic;
+  color: #525252;
+}
+.footer {
+  background-color: #c9c84a;
+  padding-top: 3rem;
+  text-align: center;
+}
+.footer a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #525252;
+  margin-bottom: 0.5rem;
+}
+.copyright {
+  color: white;
+  background-color: #282828;
+  margin: 3rem 0 0 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+/** Grid aquí**/
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer .contenedor,
+.navegacion .contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-self: center;
+}
+
+p,
+blockquote {
+  margin: 1rem 0;
+}
+
+@media (min-width: 750px) {
+  .contenido-principal {
+    display: grid;
+    grid-template:
+      repeat(4, auto) /
+      minmax(100px, max-content) auto minmax(100px, max-content);
+    gap: 1rem;
+  }
+
+  .titulo {
+    grid-area: 1 / 1 / 2 / 4;
+    justify-self: center;
+    margin: 1rem 0;
+  }
+
+  .entrada {
+    grid-area: 2 / 2 / 5 / 3;
+  }
+
+  .imagen1 {
+    grid-area: 3 / 3 / 4 / 4;
+  }
+
+  .imagen2 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+
+  .informacion {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .informacion p {
+    align-self: center;
+  }
+
+  .contenido-principal img {
+    min-width: 100%;
+  }
+}
