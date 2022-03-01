@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murcia maratón</title>
+    <link rel="stylesheet" href="p17-o.css">
+</head>
+<body class="grid grid-cols-1">
+    <header class="w-90% mx-auto">
+        <div class="lgc:flex lgc:flex-row lgc:justify-between">
+            <div>
+                <a class="grid grid-rows-1 justify-center" href="#"><img src="./imagenes/logo.webp"></a>
+            </div>
+            <div class="fixed lgc:static top-30 right-5 rounded-full lgc:rounded-none shadow-menu lgc:shadow-none">
+                <nav class="before:content-['☰'] lgc:before:content-none p-4 text-center text-3xl">
+                    <ul class="absolute lgc:static invisible lgc:visible lgc:flex lgc:flex-row lgc:justify-end text-lg lgc:h-auto lgc:pt-3 text-blue-400">
+                        <li class="px-3"><a href="#">Inicio</a></li>
+                        <li class="px-3"><a href="#">Maratones</a></li>
+                        <li class="px-3"><a href="#">Correr</a></li>
+                        <li class="px-3"><a href="#">Ciclismo</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="text-center w-90% mx-auto">
+        <h1 class="text-4xl py-5 grid grid-cols-1 justify-center">Maratones</h1>
+        <div class="h-14">
+            <form class="h-full">
+                <input class="border-solid border-2 border-gray-200 rounded h-full w-full px-5 after:content-[🔍]" autocomplete="off" id="buscar" placeholder="Buscar" name="s" required=""> 
+            </form>
+        </div>
+        <div class="py-10">
+            <h2 class="text-3xl pb-3"><strong>Estrategias de Carrera de Larga Distancia</strong></h2>
+            <p class="text-lg">Ya sea que sea un corredor de maratón o un corredor ocasional, puede beneficiarse de saber qué comer, cómo mantenerse motivado y prepararse para sus carreras de larga distancia.</p>
+        </div>
+        <section class="grid grid-cols-1 xs:grid-cols-2 lgc:grid-cols-3 xs:gap-4 mb-20">
+            <article class="pb-8">
+                <img class="mx-auto mb-3" src="./imagenes/1fuerza.jpg">
+                <a href="#"><p class="text-lg">7 Ejercicios de Fuerza para Corredores de Maratón</p></a>
+            </article>
+            <article class="pb-8">
+                <img class="mx-auto mb-3" src="./imagenes/2importantes.jpg">
+                <a href="#"><p class="text-lg">Las 7 Maratones Más Importantes del Mundo</p></a>
+            </article>
+            <article class="pb-8">
+                <img class="mx-auto mb-3" src="./imagenes/3triatlon.jpg">
+                <a href="#"><p class="text-lg">¿Qué es un Triatlón?</p></a>
+            </article>
+            <article class="pb-8">
+                <img class="mx-auto mb-3" src="./imagenes/4preparar.jpg">
+                <a href="#"><p class="text-lg">¿Cómo Preparar Una Media Maratón?</p></a>
+            </article>
+            <article class="pb-8">
+                <img class="mx-auto mb-3" src="./imagenes/5historia.jpg">
+                <a href="#"><p class="text-lg">La Historia del Maratón</p></a>
+            </article>
+            <article class="pb-8">
+                <img class="mx-auto mb-3" src="./imagenes/6entrenar.jpg">
+                <a href="#"><p class="text-lg">¿Cómo Entrenar Para Un Maratón Desde Cero?</p></a>
+            </article>
+            <article class="pb-8 xs:col-span-2 lgc:col-span-3">
+                <img class="mx-auto mb-3 xs:w-1/2 lgc:w-1/3" src="./imagenes/7quees.jpg">
+                <a href="#"><p class="text-lg mx-auto xs:w-1/2 lgc:w-1/3">¿Que es un Maratón? (Características, Reglas, Tipos y Récords)</p></a>
+            </article>
+        </section>
+    </main>
+    <footer class="bg-blue-500 text-white px-3 pb-3 pt-10">
+        <strong class="text-sm"><a href="#">Políticas de Privacidad</a> - <a href="#">Aviso Legal</a> - <a href="#">Política de cookies</a> - <a href="#">Contacto</a></strong>
+    </footer>
+</body>
+</html>

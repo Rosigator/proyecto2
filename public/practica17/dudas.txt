@@ -1,0 +1,7 @@
+- Carácter unicode del menú?
+- lupa del input?
+- No me sale el box-shadow
+- Cómo se hace la raya azul debajo de Maratones
+- Hay que insertar las imágenes en el código html?
+- En el primer break-point no puedo hacer la imagen al 50% de anchura en el mismo article, sino debajo
+- Imagenes crecer por encima de su tamaño
