@@ -4,6 +4,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'films': "linear-gradient(rgba(0,0,0,.9) 0%, rgba(0,0,0,.7) 25%, rgba(0,0,0,.2), rgba(0,0,0,0.7) 75%, rgba(0,0,0,.9) 100%), url('/public/Netflix/img/background_films.jpg')",
+        'p17menu': "url('/public/practica17/imagenes/menu.png')",
+        'lupa': "url('/public/practica17/imagenes/lupa.jpg')"
       },
       width: {
         '90%': '90%'
